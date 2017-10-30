@@ -1,0 +1,10 @@
+
+SQL> desc event;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SUBJECT                                            VARCHAR2(30)
+ EVENT                                              VARCHAR2(1500)
+ DATE1                                              DATE
+ MSGID                                              VARCHAR2(10)
+ IBS                                                NUMBER(1)
+ STS                                                NUMBER(1)

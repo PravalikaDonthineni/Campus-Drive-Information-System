@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>
+Logout Page
+</title>
+<body>
+<center><font color="#2271A0"" size="8">
+<br>
+<br>
+<br><%
+String sid1=null;
+HttpSession ses=request.getSession();
+sid1=(String)ses.getAttribute("sid");
+ses.destroyAttribute("sid1");
+sid1=(String)ses.getAttribute("sid");
+out.println(sid1);
+%>You have successfully logged out.
+
+<br>
+
+<a href="ahome1.html"><font size="4">Return to Home</font></a>
+</font>
+</center>
+</pre>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Training & Placement Cell</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Keywords here">
+<meta name="description" content="Description here">
+<meta name="Author" content="MyFreeTemplates.com">
+<META NAME="robots" CONTENT="index, follow"> <!-- (Robot commands: All, None, Index, No Index, Follow, No Follow) -->
+<META NAME="revisit-after" CONTENT="30 days">
+<META NAME="distribution" CONTENT="global"> 
+<META NAME="rating" CONTENT="general">
+<META NAME="Content-Language" CONTENT="english">
+
+
+<script language="JavaScript" type="text/JavaScript" src="images/jsfile.js"></script>
+<link href="images/my home.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="images/menustyle.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="images/smenustyle.css" media="screen, print" />
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/btn_home_dn.jpg','images/btn_about_dn.png','images/btn_contact_dn.png','images/btn_products_dn.jpg','images/btn_support_dn.jpg','images/btn_news_dn.png')">
+<table width="307" height="422" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td height="135" width="951">
+    <table width="951" border="0" cellspacing="0" cellpadding="0" height="126">
+        <tr> 
+          <td width="407" height="126">
+          <img border="0" src="images/caption.png" width="1500" height="120"></td>
+        </tr>
+        </table></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="212" width="951">
+<table width="549" height="357" border="0" cellpadding="0" cellspacing="0" background="images/topnavbg.jpg">
+        <tr> 
+          <td height="35" colspan="2" background="images/basebg2.jpg" width="951">
+          <img src="images/basebg2.jpg" width="1" height="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <a href="ahome1.html"><img src="images/btn_home.png" name="btn_home" width="55" height="33" id="btn_home" onMouseOver="MM_swapImage('btn_home','','images/btn_home_dn.jpg',1)" onMouseOut="MM_swapImgRestore()" border="0"></a><img src="images/navspacer.jpg" width="1" height="33"><a href="eve.jsp" target="f1"><img src="images/btn_eve.jpg" name="btn_eve" width="55" height="33" id="btn_eve" onMouseOver="MM_swapImage('btn_eve','','images/btn_eve_dn.png',1)" onMouseOut="MM_swapImgRestore()" border="0"></a><img src="images/navspacer.jpg" width="1" height="33"><a href="rec.jsp" target="f1"><img src="images/btn_rec.jpg" name="btn_rec" width="90" height="33" id="btn_rec" onMouseOver="MM_swapImage('btn_rec','','images/btn_rec_dn.png',1)" onMouseOut="MM_swapImgRestore()" border="0"></a><img src="images/navspacer.jpg" width="1" height="33"><a href="achievements.jsp" target="f1"><img src="images/btn_ach.png" name="btn_ach" width="90" height="33" id="btn_ach" onMouseOver="MM_swapImage('btn_ach','','images/btn_ach_dn.jpg',1)" onMouseOut="MM_swapImgRestore()" border="0"></a><img src="images/navspacer.jpg" width="1" height="33"><a href="aaboutus.html" target="f1"><img src="images/btn_abt.png" name="btn_abt" width="63" height="33" id="btn_abt" onMouseOver="MM_swapImage('btn_abt','','images/btn_abt_dn.png',1)" onMouseOut="MM_swapImgRestore()" border="0"></a><img src="images/navspacer.jpg" width="1" height="33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="140" valign="top" height="1">
+          </td>
+
+          <td valign="top" bgcolor="#FFFFFF" width="909" height="1"> 
+            <table width="894" border="0" cellpadding="0" cellspacing="0" height="1">
+              <tr> 
+                <td height="1" background="images/navbasebg.jpg" width="951">
+                <img src="images/navbasebg.jpg" width="1" height="29"></td>
+                </tr>
+              </table></td>
+        </tr>
+        <tr>  
+
+		  <td width="140" valign="top" height="454" rowspan="2">
+
+&nbsp;<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+<FORM name="f1"  action="newlogin.jsp" method=post>
+
+      <TABLE borderColor=#006600 height=202 cellSpacing=0 cellPadding=2 
+            rules=groups width=171 border=0 frame=box>
+              <THEAD>
+              <TR>
+                <TD class=class3 align=middle width=221 bgColor=#6495ED
+                colSpan=2 height=24><font size=4 color="#772233">Login</font></TD></TR></THEAD>
+              <TBODY>
+              <TR>
+                <TD noWrap align=right width=92 height=42>Login ID:</TD>
+                <TD align=right width=127 height=42><INPUT size=17 
+                name="usrname"></TD></TR>
+              <TR>
+                <TD noWrap align=right width=92 height=25>Password:</TD>
+                <TD align=right width=127 height=25><INPUT type=password 
+                  size=17 name="password"></TD></TR>
+              <TR>
+                <TD vAlign=top align=middle width=221 colSpan=2 height=50>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <INPUT type=submit value=" Sign In " name="Login"> 
+                  &nbsp;<IMG height=40 src="loginsymbol1.jpg" 
+                  width=35> </TD>
+			  </TR></p>
+        </TBODY></TABLE>
+            </form>
+</td>
+         <td height="454" width="909">
+         
+         <iframe  name="f1" width="886" height="447" border="0" src="main.html">
+		  </iframe>
+				 
+          </td>
+
+        </tr>
+       
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="26" background="images/basebg1.jpg" width="951" align=center>copy@right reserved
+    <img src="images/basebg1.jpg" width="1" height="24"></td>
+  </tr>
+  <tr>
+    <td height="49" valign="top" background="images/basebg2.jpg" width="951">    
+    <table width="511" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="26" class="baseline" width="514">&nbsp;</td>
+        <td align="right" class="baseline" width="4">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

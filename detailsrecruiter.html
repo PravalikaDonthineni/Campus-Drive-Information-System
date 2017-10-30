@@ -1,0 +1,143 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Placement information</title>
+<META NAME="Content-Language" CONTENT="english">
+<script language="JavaScript" type="text/JavaScript" src="images/jsfile.js"></script>
+<link href="images/my home.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="images/menustyle.css" media="screen, print" />
+</head>
+
+<body background="blue.jpg" onLoad="MM_preloadImages('images/btn_home_dn.PNG','images/btn_about_dn.PNG','images/btn_contact_dn.PNG',
+'images/btn_products_dn.PNG','images/btn_support_dn.PNG','images/btn_news_dn.PNG'),details.jsp">
+<form name="details">
+
+ <center><b><i>
+<font size="90" color="orange" face="Arial Rounded MT Bold" align="bottom">P
+<font size="60" color="white" face="Arial Rounded MT Bold">lacement
+<font size="72" color="orange" face="Arial Rounded MT Bold">I
+<font size="60" color="white" face="Arial Rounded MT Bold">nformation
+</center><b><i>
+
+<table width="1030" height="550" border="1" cellpadding="5" cellspacing="10">
+<tr>
+    <td valign="top" height="488" width="1029">
+<table width="1300" height="550" border="0" cellpadding="5" cellspacing="10" background="images/topnavbg.jpg">
+        <tr>
+          <td height="35" colspan="2" background="images/basebg2.jpg" width="1027">
+          <img src="images/basebg2.PNG" width="1" height="9">
+          <img src="images/btn_home.PNG" name="btn_home" width="55" height="33" id="btn_home" onMouseOver="MM_swapImage('btn_home','','images/btn_home_dn.PNG',1)" onMouseOut="MM_swapImgRestore()">
+		  <img src="images/navspacer.jpg" width="1" height="33">
+		  <img src="images/btn_about.PNG" name="btn_about" width="58" height="33" id="btn_about" onMouseOver="MM_swapImage('btn_about','','images/btn_about_dn.PNG',1)" onMouseOut="MM_swapImgRestore()">
+		  <img src="images/navspacer.jpg" width="1" height="33">
+		  <img src="images/btn_contact.PNG" name="btn_contact" width="67" height="33" id="btn_contact" onMouseOver="MM_swapImage('btn_contact','','images/btn_contact_dn.PNG',1)" onMouseOut="MM_swapImgRestore()">
+		  <img src="images/navspacer.jpg" width="1" height="33">
+		  <img src="images/btn_products.PNG" name="btn_products" width="79" height="33" id="btn_products" onMouseOver="MM_swapImage('btn_products','','images/btn_products_dn.PNG',1)" onMouseOut="MM_swapImgRestore()">
+		  <img src="images/navspacer.jpg" width="1" height="33">
+		  <img src="images/btn_support.PNG" name="btn_support" width="72" height="33" id="btn_support" onMouseOver="MM_swapImage('btn_support','','images/btn_support_dn.PNG',1)" onMouseOut="MM_swapImgRestore()">
+		  <img src="images/navspacer.jpg" width="1" height="33">
+		  <img src="images/btn_news.PNG" name="btn_news" width="50" height="33" id="btn_news" onMouseOver="MM_swapImage('btn_news','','images/btn_news_dn.PNG',1)" onMouseOut="MM_swapImgRestore()">
+		  </td>
+        </tr>
+        <tr>
+          <td width="20" valign="top" height="231" rowspan="3">
+
+            <a href="updaterecruiter.html" onmouseover="rsetOverImg('1','');" onmouseout="rsetOutImg('1','');" target="">
+          <img src="images/rbutton1up.png" border="0" id="rbutton1" vspace="1" hspace="1" width="135" height="26"></a><a href="detailsrecruiter.html" onmouseover="rsetOverImg('2','');" onmouseout="rsetOutImg('2','');" target="">
+		  <img src="images/rbutton2up.png" border="0" id="rbutton2" vspace="1" hspace="1" width="135" height="26"></a><a href="studrecruiter.html" onmouseover="rsetOverImg('3','');" onmouseout="rsetOutImg('3','');" target="">
+		  <img src="images/rbutton3up.png" border="0" id="rbutton3" vspace="1" hspace="1" width="135" height="26"></a><a href="*" onmouseover="rsetOverImg('4','');" onmouseout="rsetOutImg('4','');" target="">
+		  <img src="images/rbutton4up.png" border="0" id="rbutton4" vspace="1" hspace="1" width="135" height="26"></a><br>
+           <a href="pswdrecruiter.html" onmouseover="rsetOverImg('5','');" onmouseout="rsetOutImg('5','');" target="">
+          <img src="images/rbutton5up.png" border="0" id="rbutton5" vspace="1" hspace="1" width="135" height="26"></a><br>
+
+
+          <td bgcolor="#FFFFFF" width="752" height="1">
+
+          <font size="6" align="center"> </font>
+          <u>
+
+          <font size="5" align="center" color="#2271A0">COLLEGE DETAILS</font></u><font size="6" align="center"><font color="#2271A0">:</font></font>
+
+<%@include file="connection.jsp"%>
+<%  try
+{
+    HttpSession ses=request.getSession();
+   String uid=(String)ses.getAttribute("sid");
+
+  rs=stmt.executeQuery("select * from administrator");
+  rs.next();
+
+
+  %>
+		  <b><font size="3">College Code:</font></b>
+
+		  <input type="text" size="20" name="ccode" value=<%=rs.getString(1)%>>
+		  <br>
+          <b><font size="3"></font></b><p><font size="3"><b>
+          </b></font><b><font size="3">College Name:</font></b>
+		  <input type="text" size="20" name="cname" value=<%=rs.getString(2)%>>
+		  <br>
+           <b><font size="3">Branches:</font></b>
+		  <input type="text" size="20" name="cbranch" value=<%=rs.getString(4)%>>
+		  <br>
+          <p><b><font size="3"> No. of Students:</font></b>
+		  <input type="text" size="20" name="cnum" value=<%=rs.getString(5)%>>
+		  <br>
+          <b><font size="3">Email Id:</font></b>
+		  <input type="text" size="20" name="cemail"><b><font size="3" value=<%=rs.getString(6)%>>
+		  <br>
+          </font></b>
+          <p><font size="3"><b>
+          </b></font><b><font size="3">Contact Number:</font></b>
+		  <input type="text" size="20" name="ccontact" value=<%=rs.getString(7)%>>
+		  <br>
+          <b><font size="3">&nbsp;Website:</font></b>
+		  <input type="text" size="20" name="cwebsite" value=<%=rs.getString(8)%>>
+		  <br>
+          <p>&nbsp;<b><font size="3">
+          Address:
+          </font></b>
+          <textarea rows="5" coloumns="20" name="caddr" cols="16" value=<%=rs.getString(9)%>></textarea>
+		  <br>
+		  <br>
+
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

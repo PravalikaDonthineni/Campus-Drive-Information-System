@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="ws-ctrl-boundary" horiz-adv-x="1000" >
+<font-face font-family="ws-ctrl-boundary" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="left" unicode="&#xe800;" d="m1000 404v-108q0-7-5-12t-13-5h-696v-125q0-12-11-17t-19 3l-215 196q-5 5-5 12 0 8 5 14l215 197q9 8 19 4 11-5 11-17v-125h696q8 0 13-5t5-12z" horiz-adv-x="1000" />
+<glyph glyph-name="right" unicode="&#xe801;" d="m964 352q0-8-5-14l-215-197q-9-8-19-4-11 5-11 17v125h-696q-8 0-13 5t-5 12v108q0 7 5 12t13 5h696v125q0 12 11 17t19-3l215-196q5-5 5-12z" horiz-adv-x="1000" />
+<glyph glyph-name="right-dir-1" unicode="&#xe802;" d="m0 580l400-230-400-230 0 460z" horiz-adv-x="400" />
+<glyph glyph-name="pause" unicode="&#xe803;" d="m440 700q90 0 90-64l0-570q0-66-90-66t-90 66l0 570q0 64 90 64z m-350 0q90 0 90-64l0-570q0-66-90-66t-90 66l0 570q0 64 90 64z" horiz-adv-x="530" />
+</font>
+</defs>
+</svg>

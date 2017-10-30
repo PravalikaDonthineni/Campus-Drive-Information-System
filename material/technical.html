@@ -1,0 +1,845 @@
+
+<html>
+<body background="ob018.jpg">
+<center><u><b><h2><font color="blue">TECHNICAL</font></h2></u></b></center>
+<style>
+BODY { background-attachment:fixed;font-family:trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: regular ; color:black}
+TD { font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight:regular;color:black}
+.text { font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size:10pt; font-weight: regular ;color:skyblue }
+.head { font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 13pt; font-weight: regular ; color:black }
+.note { font-family: trebuchet ms, tahoma,verdana , Arial, Helvetica, sans-serif; font-size:  8pt;  font-weight: regular ;color:black}
+a { text-decoration: none;font-weight: regular;red}
+
+</style>
+<br>
+<br>
+<u><h2><font color="blue">DataBase</font></h2></u>
+
+1. Database
+<br>
+<br>
+A database is a logically coherent collection of data with some inherent meaning, representing some aspect of real world and which is designed, built and populated with data for a specific purpose
+<br>
+<br>
+
+2. DBMS
+<br>
+<br>
+It is a collection of programs that enables user to create and maintain a database. In other words it is general-purpose software that provides the users with the processes of defining, constructing and manipulating the database for various applications.
+<br>
+<br>
+
+3. Database system
+<br>
+<br>
+The database and DBMS software together is called as Database system.
+<br>
+<br>
+
+4. Advantages of DBMS?
+<br>
+<br>
+
+Ø Redundancy is controlled.
+Ø Unauthorized access is restricted.
+Ø providing multiple user interfaces.
+Ø Enforcing integrity constraints.
+Ø Providing backup and recovery.
+
+<br>
+<br>
+5. Disadvantage in File Processing System
+<br>
+<br>
+Ø Data redundancy & inconsistency.
+Ø Difficult in accessing data.
+Ø Data isolation.
+Ø Data integrity.
+Ø Concurrent access is not possible.
+Ø Security Problems.
+<br>
+<br>
+
+6.The three levels of data abstraction
+<br>
+<br>
+
+Ø<u> Physical level</u>: The lowest level of abstraction describes how data are stored.
+<br>
+Ø<u> Logical level</u>: The next higher level of abstraction, describes what data are stored in database and what relationship among those data.
+<br>
+Ø <u>View level</u>: The highest level of abstraction describes only part of entire database.
+
+<br>
+<br>
+11. Data Independence
+
+<br>
+<br>
+Data independence means that “the application is independent of the storage structure and access strategy of data”. In other words, The ability to modify the schema definition in one level should not affect the schema definition in the next higher level.
+<br>
+<br>
+Two types of Data Independence:
+<br>
+Ø <u>Physical Data Independence</u>: Modification in physical level should not affect the logical level.
+<br>
+Ø <u>Logical Data Independence</u>: Modification in logical level should affect the view level.
+<br>
+<u>NOTE</u>: Logical Data Independence is more difficult to achieve
+
+<br>
+<br>
+12. View & How is it related to data independence?
+<br>
+<br>
+A view may be thought of as a virtual table, that is, a table that does not really exist in its own right but is instead derived from one or more underlying base table. In other words, there is no stored file that direct represents the view instead a definition of view is stored in data dictionary.
+Growth and restructuring of base tables is not reflected in views. Thus the view can insulate users from the effects of restructuring and growth in the database. Hence accounts for logical data independence.
+<br>
+<br>
+
+13 Data Model
+<br>
+<br>
+A collection of conceptual tools for describing data, data relationships data semantics and constraints.
+<br>
+<br>
+
+14. E-R model
+<br>
+<br>
+This data model is based on real world that consists of basic objects called entities and of relationship among these objects. Entities are described in a database by a set of attributes.
+<br>
+<br>
+15. Object Oriented model
+<br>
+<br>
+This model is based on collection of objects. An object contains values stored in instance variables with in the object. An object also contains bodies of code that operate on the object. These bodies of code are called methods. Objects that contain same types of values and the same methods are grouped together into classes.
+<br>
+<br>
+16 Entity
+<br>
+<br>
+It is a 'thing' in the real world with an independent existence.
+<br>
+<br>
+
+17. Entity type
+It is a collection (set) of entities that have same attributes.
+
+<br>
+<br>
+18. Entity set
+<br>
+<br>
+It is a collection of all entities of particular entity type in the database.
+<br>
+<br>
+19. Extension of entity type
+<br>
+<br>
+The collections of entities of a particular entity type are grouped together into an entity set.
+<br>
+<br>
+20.Weak Entity set
+<br>
+<br>
+An entity set may not have sufficient attributes to form a primary key, and its primary key compromises of its partial key and primary key of its parent entity, then it is said to be Weak Entity set.
+<br>
+<br>
+21.Attribute
+<br>
+<br>
+It is a particular property, which describes the entity.
+<br>
+<br>
+
+22 Relation Schema & Relation
+<br>
+<br>
+A relation Schema denoted by R(A1, A2, …, An) is made up of the relation name R and the list of attributes Ai that it contains. A relation is defined as a set of tuples. Let r be the relation which contains set tuples (t1, t2, t3, ..., tn). Each tuple is an ordered list of n-values t=(v1,v2, ..., vn).
+<br>
+<br>
+23. Degree of a Relation
+<br>
+<br>
+It is the number of attribute of its relation schema.
+<br>
+<br>
+
+
+24. Relationship
+<br>
+<br>
+It is an association among two or more entities.
+<br>
+<br>
+
+
+25 Relationship set
+<br>
+<br>
+The collection (or set) of similar relationships.
+<br>
+<br>
+26. Relationship type
+<br>
+<br>
+Relationship type defines a set of associations or a relationship set among a given set of entity types.
+<br>
+<br>
+
+27. Degree of Relationship type
+<br>
+<br>
+It is the number of entity type participating.
+<br>
+<br>
+25. DDL (Data Definition Language)
+<br>
+<br>
+A data base schema is specifies by a set of definitions expressed by a special language called DDL.
+<br>
+<br>
+26. VDL (View Definition Language)
+<br>
+<br>
+It specifies user views and their mappings to the conceptual schema.
+
+<br>
+<br>
+
+
+
+
+29. DML (Data Manipulation Language)
+<br>
+<br>
+This language that enable user to access or manipulate data as organised by appropriate data model.
+<br>
+<u> Procedural DML or Low level:</u> DML requires a user to specify what data are needed and how to get those data.
+<br>
+<u> Non-Procedural DML or High level:</u> DML requires a user to specify what data are needed without specifying how to get those data
+<br>
+<br>
+
+30 Relational Algebra
+<br>
+<br>
+It is procedural query language. It consists of a set of operations that take one or two relations as input and produce a new relation.
+<br>
+<br>
+37. Relational Calculus
+<br>
+<br>
+It is an applied predicate calculus specifically tailored for relational databases proposed by E.F. Codd.
+E.g. of languages based on it are DSL ALPHA, QUEL.
+<br>
+<br>
+38. Difference between Tuple-oriented relational calculus & domain-oriented relational calculus
+<br>
+<br>
+The tuple-oriented calculus uses a tuple variables i.e., variable whose only permitted values are tuples of that relation. E.g. QUEL
+The domain-oriented calculus has domain variables i.e., variables that range over the underlying domains instead of over relation. E.g. ILL, DEDUCE.
+<br>
+<br>
+39. Normalization
+<br>
+<br>
+It is a process of analysing the given relation schemas based on their Functional Dependencies (FDs) and primary key to achieve the properties
+<br>
+Ø Minimizing redundancy
+ <br>
+Ø Minimizing insertion, deletion and update anomalies.
+<br>
+<br>
+40. Functional Dependency
+<br>
+<br>
+A Functional dependency is denoted by X Y between two sets of attributes X and Y that are subsets of R specifies a constraint on the possible tuple that can form a relation state r of R. The constraint is for any two tuples t1 and t2 in r if t1[X] = t2[X] then they have t1[Y] = t2[Y]. This means the value of X component of a tuple uniquely determines the value of component Y.
+<br>
+<br>
+41. When is a functional dependency F said to be minimal?
+<br>
+<br>
+Ø Every dependency in F has a single attribute for its right hand side.
+Ø We cannot replace any dependency X A in F with a dependency Y A where Y is a proper subset of X and still have a set of dependency that is equivalent to F.
+Ø We cannot remove any dependency from F and still have set of dependency that is equivalent to F.
+
+<br>
+<br>
+
+
+
+
+
+
+42. Multivalued dependency
+<br>
+<br>
+
+Multivalued dependency denoted by X Y specified on relation schema R, where X and Y are both subsets of R, specifies the following constraint on any relation r of R: if two tuples t1 and t2 exist in r such that t1[X] = t2[X] then t3 and t4 should also exist in r with the following properties
+Ø t3[x] = t4[X] = t1[X] = t2[X]
+Ø t3[Y] = t1[Y] and t4[Y] = t2[Y]
+Ø t3[Z] = t2[Z] and t4[Z] = t1[Z]
+where [Z = (R-(X U Y)) ]
+<br>
+<br>
+42 Lossless join property
+<br>
+<br>
+It guarantees that the spurious tuple generation does not occur with respect to relation schemas after decomposition.
+<br>
+<br>
+44. 1 NF (Normal Form)
+<br>
+<br>
+The domain of attribute must include only atomic (simple, indivisible) values.
+<br>
+<br>
+45. Fully Functional dependency
+<br>
+<br>
+It is based on concept of full functional dependency. A functional dependency X Y is full functional dependency if removal of any attribute A from X means that the dependency does not hold any more.
+<br>
+<br>
+46. 2NF
+<br>
+<br>
+A relation schema R is in 2NF if it is in 1NF and every non-prime attribute A in R is fully functionally dependent on primary key.
+<br>
+<br>
+47. 3NF
+<br>
+<br>
+
+A relation schema R is in 3NF if it is in 2NF and for every FD X A either of the following is true
+Ø X is a Super-key of R.
+Ø A is a prime attribute of R.
+In other words, if every non prime attribute is non-transitively dependent on primary key.
+<br>
+<br>
+48. BCNF (Boyce-Codd Normal Form)
+<br>
+<br>
+A relation schema R is in BCNF if it is in 3NF and satisfies an additional constraint that for every FD X A, X must be a candidate key.
+<br>
+<br>
+49. 4NF
+<br>
+<br>
+A relation schema R is said to be in 4NF if for every Multivalued dependency X Y that holds over R, one of following is true
+Ø X is subset or equal to (or) XY = R.
+Ø X is a super key.
+<br>
+<br>
+50. 5NF
+<br>
+<br>
+A Relation schema R is said to be 5NF if for every join dependency {R1, R2, ..., Rn} that holds R, one the following is true
+<br>
+Ø Ri = R for some i.
+<br>
+Ø The join dependency is implied by the set of FD, over R in which the left side is key of R.
+
+<br>
+<br>
+51. Atomicity and Aggregation
+<br>
+<br>
+<u>Atomicity: </u>
+<br>
+<br>
+Either all actions are carried out or none are. Users should not have to worry about the effect of incomplete transactions. DBMS ensures this by undoing the actions of incomplete transactions.
+<br>
+<br>
+<u>Aggregation:</u>
+<br>
+<br>
+A concept which is used to model a relationship between a collection of entities and relationships. It is used when we need to express a relationship among relationships.
+
+<br>
+<br>
+<u><font color="blue"><h2>JAVA</h2></font></u>
+
+1.What is a transient variable?
+<br>
+<br>
+A transient variable is a variable that may not be serialized.
+<br>
+<br>
+
+2. Which containers use a border Layout as their default layout?
+<br>
+<br>
+The window, Frame and Dialog classes use a border layout as their default layout..
+<br>
+<br>
+3. Why do threads block on I/O?
+<br>
+<br>
+Threads block on i/o (that is enters the waiting state) so that other threads may execute while the i/o Operation is performed..
+<br>
+<br>
+4. How are Observer and Observable used?
+<br>
+<br>
+Objects that subclass the Observable class maintain a list of observers. When an Observable object is updated it invokes the update() method of each of its observers to notify the observers that it has changed state. Objects that observe Observable objects implement the Observer interface
+<br>
+<br>
+5. What is synchronization and why is it important?
+<br>
+<br>
+With respect to multithreading, synchronization is the capability to control the access of multiple threads to shared resources. Without synchronization, it is possible for one thread to modify a shared object while another thread is in the process of using or updating that object's value. This often leads to significant errors
+<br>
+<br>
+6. Can a lock be acquired on a class?
+<br>
+<br>
+Yes, a lock can be acquired on a class. This lock is acquired on the class's Class object...
+<br>
+<br>
+
+7. What's new with the stop (), suspend () and resume () methods in JDK 1.2?
+<br>
+<br>
+The stop (), suspend () and resume () methods have been deprecated in JDK 1.2.
+<br>
+<br>
+
+8. Is null a keyword?
+<br>
+<br>
+The null value is not a keyword
+<br>
+<br>
+
+9. What is the preferred size of a component?
+<br>
+<br>
+The preferred size of a component is the minimum component size that will allow the component to display normally
+<br>
+<br>
+
+10. What method is used to specify a container's layout?
+<br>
+<br>
+The set Layout () method is used to specify a container's layout..
+<br>
+<br>
+11. Which containers use a Flow Layout as their default layout?
+<br>
+<br>
+The Panel and Applet classes use the Flow Layout as their default layout
+<br>
+<br>
+12. What state does a thread enter when it terminates its processing?
+<br>
+<br>
+When a thread terminates its processing, it enters the dead state..
+<br>
+<br>
+13. What is the Collections API?
+<br>
+<br>
+The Collections API is a set of classes and interfaces that support operations on
+collections of objects
+<br>
+<br>
+14. Which characters may be used as the second character of an identifier, but not as the first character of an identifier?
+<br>
+<br>
+The digits 0 through 9 may not be used as the first character of an identifier but they may be used after the first character of an identifier
+<br>
+<br>
+15. What is the List interface?
+<br>
+<br>
+The List interface provides support for ordered collections of objects
+<br>
+<br>
+16. How does Java handle integer overflows and underflows?
+<br>
+<br>
+It uses those low order bytes of the result that can fit into the size of the type allowed by the operation
+<br>
+<br>
+17. What is the Vector class?
+<br>
+<br>
+The Vector class provides the capability to implement a growable array of objects
+<br>
+<br>
+18. What modifiers may be used with an inner class that is a member of an outer class?
+<br>
+<br>
+A (non-local) inner class may be declared as public, protected, private, static, final, or abstract..
+<br>
+<br>
+19. What is an Iterator interface?
+<br>
+<br>
+The Iterator interface is used to step through the elements of a Collection..
+<br>
+<br>
+20. What is the difference between the >> and >>> operators?
+<br>
+<br>
+The >> operator carries the sign bit when shifting right. The >>> zero-fills bits that have been shifted out..
+<br>
+<br>
+21. Which method of the Component class is used to set the position and size of a component?
+<br>
+<br>
+Set Bounds ().
+<br>
+<br>
+22. How many bits are used to represent Unicode, ASCII, UTF-16, and UTF-8 characters?
+<br>
+<br>
+Unicode requires 16 bits and ASCII require 7 bits. Although the ASCII character set uses only 7 bits, it is usually represented as 8 bits. UTF-8 represents characters using 8, 16, and 18 bit patterns. UTF-16 uses 16-bit and larger bit patterns..
+<br>
+<br>
+23. What is the difference between yielding and sleeping?
+<br>
+<br>
+When a task invokes its yield () method, it returns to the ready state. When a task invokes its sleep () method, it returns to the waiting state..
+<br>
+<br>
+24. Which java.util classes and interfaces support event handling?
+<br>
+<br>
+The Event Object class and the Event Listener interface support event processing..
+<br>
+<br>
+25. Is size of a keyword?
+<br>
+<br>
+The size of operator is not a keyword..
+<br>
+<br>
+26. What are wrapped classes?
+<br>
+<br>
+Wrapped classes are classes that allow primitive types to be accessed as objects..
+<br>
+<br>
+27. Does garbage collection guarantee that a program will not run out of memory?
+<br>
+<br>
+Garbage collection does not guarantee that a program will not run out of memory. It is possible for programs to use up memory resources faster than they are garbage collected. It is also possible for programs to create objects that are not subject to garbage collection.
+<br>
+<br>
+28. What restrictions are placed on the location of a package statement within a source code file?
+<br>
+<br>
+A package statement must appear as the first line in a source code file (excluding blank lines and comments).
+<br>
+<br>
+29. Can an object's finalize () method be invoked while it is reachable?
+<br>
+<br>
+An object's finalize () method cannot be invoked by the garbage collector while the object is still reachable. However, an object's finalize () method may be invoked by other objects.
+<br>
+<br>
+30. What is the immediate super class of the Applet class?
+<br>
+<br>
+Panel.
+<br>
+<br>
+31. What is the difference between preemptive scheduling and time slicing?
+<br>
+<br>
+Under preemptive scheduling, the highest priority task executes until it enters the waiting or dead states or a higher priority task comes into existence. Under time slicing, a task executes for a predefined slice of time and then reenters the pool of ready tasks. The scheduler then determines which task should execute next, based on priority and other factors..
+<br>
+<br>
+32. Name three Component subclasses that support painting.
+<br>
+<br>
+The Canvas, Frame, Panel, and Applet classes support painting..
+<br>
+<br>
+33. What value does readLine () return when it has reached the end of a file?
+<br>
+<br>
+The readLine () method returns null when it has reached the end of a file..
+<br>
+<br>
+34. What is the immediate super class of the Dialog class?
+<br>
+<br>
+Window.
+<br>
+<br>
+35. What is clipping?
+<br>
+<br>
+Clipping is the process of confining paint operations to a limited area or shape..
+<br>
+<br>
+36. What is a native method?
+<br>
+<br>
+A native method is a method that is implemented in a language other than Java..
+<br>
+<br>
+37. Can a for statement loop indefinitely?
+<br>
+<br>
+Yes, a for statement can loop indefinitely. For example, consider the following:
+for (;;).
+<br>
+<br>
+38. What is order of precedence and associatively, and how are they used?
+<br>
+<br>
+Order of precedence determines the order in which operators are evaluated in expressions. Associatity determines whether an expression is evaluated left-to-right or right-to-left.
+<br>
+<br>
+39. When a thread blocks on I/O, what state does it enter?
+<br>
+<br>
+A thread enters the waiting state when it blocks on I/O.
+<br>
+<br>
+40. To what value is a variable of the String type automatically initialized?
+<br>
+<br>
+The default value of an String type is null.
+<br>
+<br>
+41. To what value is a variable of the String type automatically initialized?
+<br>
+<br>
+The default value of an String type is null.
+<br>
+<br>
+42. What is the catch or declare rule for method declarations?
+<br>
+<br>
+If a checked exception may be thrown within the body of a method, the method must either catch the exception or declare it in its throws clause..
+<br>
+<br>
+43. What is the difference between a MenuItem and a CheckboxMenuItem?
+<br>
+<br>
+The CheckboxMenuItem class extends the MenuItem class to support a menu item that may be checked or unchecked..
+<br>
+<br>
+44. What is a task's priority and how is it used in scheduling?
+<br>
+<br>
+A task's priority is an integer value that identifies the relative order in which it should be executed with respect to other tasks. The scheduler attempts to schedule higher priority tasks before lower priority tasks..
+<br>
+<br>
+45. What class is the top of the AWT event hierarchy?
+<br>
+<br>
+The java.awt.AWTEvent class is the highest-level class in the AWT event-class hierarchy..
+<br>
+<br>
+46. When a thread is created and started, what is its initial state?
+<br>
+<br>
+A thread is in the ready state after it has been created and started..
+<br>
+<br>
+47. Can an anonymous class be declared as implementing an interface and extending a class?
+<br>
+<br>
+An anonymous class may implement an interface or extend a superclass, but may not be declared to do both..
+<br>
+<br>
+48. What is the range of the short type?
+<br>
+<br>
+The range of the short type is -(2^15) to 2^15 - 1..
+<br>
+<br>
+49What is the range of the char type?
+<br>
+<br>
+The range of the char type is 0 to 2^16 - 1..
+<br>
+<br>
+50. In which package are most of the AWT events that support the event-delegation model defined?
+<br>
+<br>
+Most of the AWT-related events of the event-delegation model are defined in the java.awt.event package. The AWTEvent class is defined in the java.awt package..
+<br>
+<br>
+51. What is the immediate superclass of Menu?
+<br>
+<br>
+MenuItem.
+
+<br>
+<br>
+<br>
+<br>
+
+<h2><u><font color="blue">Operating Systems</font></u></h2>
+<br>
+1.Binary semaphore  & its use
+<br>
+<br>
+A binary semaphore is one, which takes only 0 and 1 as values. They are used to implement mutual exclusion and synchronize concurrent processes
+<br>
+<br>
+2.Thrashing
+<br>
+<br>
+It is a phenomenon in virtual memory schemes when the processor spends most of its time swapping pages, rather than executing instructions. This is due to an inordinate number of page faults.
+<br>
+<br>
+
+3.Coffman's conditions that lead to a deadlock.
+<br>
+<br>
+<u>Mutual Exclusion:</u> Only one process may use a critical resource at a time.
+<br>
+<u>Hold & Wait:</u> A process may be allocated some resources while waiting for others.
+<br>
+<u>No Pre-emption:</u> No resource can be forcible removed from a process holding it.
+<br>
+<u>Circular Wait: </u>A closed chain of processes exist such that each process holds at least one resource needed by another process in the chain.
+<br>
+<br>
+
+4.Short-, long- and medium-term scheduling
+<br>
+<br>
+Long term scheduler determines which programs are admitted to the system for processing. It controls the degree of multiprogramming. Once admitted, a job becomes a process.
+Medium term scheduling is part of the swapping function. This relates to processes that are in a blocked or suspended state. They are swapped out of real-memory until they are ready to execute. The swapping-in decision is based on memory-management criteria.
+Short term scheduler, also know as a dispatcher executes most frequently, and makes the finest-grained decision of which process should execute next. This scheduler is invoked whenever an event occurs. It may lead to interruption of one process by preemption.
+<br>
+<br>
+5.Turnaround time and response time
+<br>
+<br>
+Turnaround time is the interval between the submission of a job and its completion. Response time is the interval between submission of a request, and the first response to that request.
+<br>
+<br>
+6. Translation Lookaside Buffer (TLB)
+<br>
+<br>
+In a cached system, the base addresses of the last few referenced pages is maintained in registers called the TLB that aids in faster lookup. TLB contains those page-table entries that have been most recently used. Normally, each virtual memory reference causes 2 physical memory accesses-- one to fetch appropriate page-table entry, and one to fetch the desired data. Using TLB in-between, this is reduced to just one physical memory access in cases of TLB-hit.
+<br>
+<br>
+
+7.Resident set and working set of a process
+<br>
+<br>
+
+
+Resident set is that portion of the process image that is actually in real-memory at a particular instant. Working set is that subset of resident set that is actually needed for execution. (Relate this to the variable-window size method for swapping techniques.)
+<br>
+<br>
+
+
+8.When is a system in safe state?
+<br>
+<br>
+
+
+The set of dispatchable processes is in a safe state if there exists at least one temporal order in which all processes can be run to completion without resulting in a deadlock.
+<br>
+<br>
+
+
+9. cycle stealing
+<br>
+<br>
+
+We encounter cycle stealing in the context of Direct Memory Access (DMA). Either the DMA controller can use the data bus when the CPU does not need it, or it may force the CPU to temporarily suspend operation. The latter technique is called cycle stealing. Note that cycle stealing can be done only at specific break points in an instruction cycle.
+<br>
+<br>
+
+
+10.Busy waiting
+<br>
+<br>
+
+The repeated execution of a loop of code while waiting for an event to occur is called busy-waiting. The CPU is not engaged in any real productive activity during this period, and the process does not progress toward completion.
+<br>
+<br>
+
+11. local and global page replacements
+<br>
+<br>
+
+Local replacement means that an incoming page is brought in only to the relevant process' address space. Global replacement policy allows any page frame from any process to be replaced. The latter is applicable to variable partitions model only.
+<br>
+<br>
+
+
+12.latency, transfer and seek time with respect to disk I/O.
+<br>
+<br>
+
+Seek time is the time required to move the disk arm to the required track. Rotational delay or latency is the time it takes for the beginning of the required sector to reach the head. Sum of seek time (if any) and latency is the access time. Time taken to actually transfer a span of data is transfer time.
+
+<br>
+<br>
+
+13. In the context of memory management, what are placement and replacement algorithms
+<br>
+<br>
+
+Placement algorithms determine where in available real-memory to load a program. Common methods are first-fit, next-fit, best-fit. Replacement algorithms are used when memory is full, and one process (or part of a process) needs to be swapped out to accommodate a new program. The replacement algorithm determines which are the partitions to be swapped out.
+
+<br>
+<br>
+
+
+
+2 Demand- and pre-paging
+<br>
+<br>
+With demand paging, a page is brought into memory only when a location on that page is actually referenced during execution. With pre-paging, pages other than the one demanded by a page fault are brought in. The selection of such pages is done based on common access patterns, especially for secondary memory devices.
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

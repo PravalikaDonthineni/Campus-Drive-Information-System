@@ -1,0 +1,80 @@
+<%
+String sid1=null;
+HttpSession ses=request.getSession();
+	sid1=(String)ses.getAttribute("sid");
+  if(!(sid1.equals("NULL")))
+{%>
+
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="Microsoft FrontPage 5.0">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+  <html>
+<head>
+<title>Add Event</title>
+</head>
+<body background="ob018.jpg"><center>
+<font color="2271A0"><h2><u>Add Event</u> </h2></font>
+<form name="f1" method="post" action="addevent1.jsp">
+<pre>
+
+         subject:         <input type="text" name="subj" value="subject" size="20">
+
+<pre>&nbsp;<pre>&nbsp;<pre>&nbsp;<pre>&nbsp;<p>  <textarea rows=15 cols=25 name="event">Add the event here...</textarea></pre>
+
+<center>
+<input type="submit" value="   ADD   " name="add">
+
+<a href="allevents.jsp">View Events</a>
+</center>
+</form>
+
+</body>
+</html>
+
+
+ </pre></pre></pre></BODY>
+</HTML>
+<%
+}
+else
+out.println("<center><br><h3><font color=#2271A0>U dont have privilage to change</h3>");
+%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+<%!String dat=null%>
+<html>
+<head>
+<title>
+Student details
+</title>
+</head>
+<body>
+
+<form name="f1" method="get" action="rsdetails.jsp">
+
+<u><font color="#2271A0"" size="5" align="left">Searching for student information:</u></font>
+<b><font size="4"><pre>
+<center>
+
+<%@include file="connection.jsp"%>
+
+Branch:     <select name="branch">
+
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option selected value="%">All</option>
+</select>
+
+ Aggregate:  <select name="aggr">
+
+<option selected value="0">All</option>
+<option value="75">">=75%"</option>
+<option value="70">">=70%"</option>
+<option value="68">">=68%"</option>
+<option value="65">">=65%"</option>
+<option value="63">">=63%"</option>
+<option value="60">">=60%"</option>
+</select>
+Backlogs:  <select name="backlog">
+
+<option selected value="0">All</option>
+<option value="0">"0"</option>
+<option value="1">"<=1"</option>
+<option value="2">"<=2"</option>
+<option value="3">"<=3"</option>
+<option value="4">"<=4"</option>
+<option value="5">">=5"</option>
+</select>
+<%
+try
+{
+ rs=stmt.executeQuery("Select to_char(sysdate) from dual");
+ rs.next();
+	dat=rs.getString(1);
+
+out.println(dat);
+Year:      <select name="year">
+
+<option value="III">III</option>
+<option selected value="IV">IV</option>
+</select>
+
+Passed out:  <select name="passedout">
+
+<option value="
+
+<input type="submit" name="src"  value="search">
+</center>
+</font>
+</b>
+</form>
+</pre>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

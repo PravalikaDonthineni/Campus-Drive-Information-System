@@ -1,0 +1,103 @@
+
+<html>
+<style>
+BODY { background-attachment:fixed;font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color:green}
+TD { font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight:bold;color:green}
+.text { font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: regular ;color:skyblue }
+.head { font-family: trebuchet ms, tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 13pt; font-weight: bold ; color: red }
+.note { font-family: trebuchet ms, tahoma,verdana , Arial, Helvetica, sans-serif; font-size:  8pt;  font-weight: regular ;color:red}
+
+
+A:hover {
+	font-family:monotype corsiva;
+}
+A{
+        text-decoration:none; 
+	   COLOR:Black; FONT-FAMILY: 'Helvetica';font-weight: bold
+}
+
+ 
+</style>
+<style type="text/css">
+
+.gradualshine{
+filter:alpha(opacity=30);
+-moz-opacity:0.3;
+}
+
+</style>
+<head>
+<script type="text/javascript">
+
+var baseopacity=30
+
+function slowhigh(which2){
+imgobj=which2
+browserdetect=which2.filters? "ie" : typeof which2.style.MozOpacity=="string"? "mozilla" : ""
+instantset(baseopacity)
+highlighting=setInterval("gradualfade(imgobj)",50)
+}
+
+function slowlow(which2){
+cleartimer()
+instantset(baseopacity)
+}
+
+function instantset(degree){
+if (browserdetect=="mozilla")
+imgobj.style.MozOpacity=degree/100
+else if (browserdetect=="ie")
+imgobj.filters.alpha.opacity=degree
+}
+
+function cleartimer(){
+if (window.highlighting) clearInterval(highlighting)
+}
+
+function gradualfade(cur2){
+if (browserdetect=="mozilla" && cur2.style.MozOpacity<1)
+cur2.style.MozOpacity=Math.min(parseFloat(cur2.style.MozOpacity)+0.1, 0.99)
+else if (browserdetect=="ie" && cur2.filters.alpha.opacity<100)
+cur2.filters.alpha.opacity+=10
+else if (window.highlighting) 
+clearInterval(highlighting)
+}
+</script>
+
+
+</head>
+
+<body background="ob018.jpg">
+<h2><u><b><font color="2271A0">Aptitude Material</font></b></u></h2>
+
+
+
+
+<a href="ages.html">Ages</a>
+<br>
+<br>
+<a href="numbers.html">Numbers</a>
+ <br>
+<br>
+<a href="clocks.html">Clocks</a> <br>
+<br>
+<a href="calendars.html">Calendars</a>
+<br>
+<br>
+<a href="timework.html">Time & Work</a>
+<br>
+<br>
+<a href="timedistance.html">Time & Distance</a>
+<br><br><br>
+
+
+
+
+
+
+
+
+
+   
+   </body>
+   </html>

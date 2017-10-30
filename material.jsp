@@ -1,0 +1,69 @@
+<%
+String sid1=null;
+HttpSession ses=request.getSession();
+	sid1=(String)ses.getAttribute("sid");
+  if(sid1.equals("admin"))
+	 {%><html>
+<head>
+<title>
+Upload Material
+</title>
+</head>
+<body background="ob018.jpg">
+<pre>
+<form name=f1 method="post" action="upload.jsp">
+<h2><u><font color="2271A0">Upload material:</u></h2></font>
+<center>
+<b><font size="4">
+Topic Name: <select name="s1">
+<option>Aptitude</option>
+<option>Reasoning</option>
+<option>Technical</option>
+<option>Verbal</option>
+<option>CampusPapers</option>
+<option>CompanyProfiles</option>
+</select><br>
+        File name: <input type="file" name="brws" value="Browse..."                 accept="html/images"><br>
+  <input type="submit" name="update" value="Upload">
+</font></b>
+</center>
+</form>
+</pre>
+</body>
+</html>
+<%
+}
+else
+out.println("<center><br><h3><font color=#2271A0>U dont have privilage to upload</h3>");%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+<web-app>
+
+<servlet>
+    <servlet-name>uplsrv1</servlet-name>
+    <servlet-class>UplSrv1</servlet-class>
+  </servlet>
+
+  <!-- mapping our servlet -->
+  <servlet-mapping>
+    <servlet-name>uplsrv1</servlet-name>
+    <url-pattern>/uplsrv1</url-pattern>
+  </servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>./ahome1.html</welcome-file>
+</welcome-file-list>
+</web-app>
