@@ -1,8 +1,9 @@
-DSN : PRO
+Campus Drive Information System is to develop software which manages placement activities in college makes an interactive GUI where admin can manage details of all students on his console, he can send emails to students informing about placement activities. Although such a project has a very wide scope, this project contains the most important part i.e. displaying the personal and academic information of a student and company.
 
-username : admin
-pswd:  admin1
+The students and companies are also provided with the facility of editing some fields like username and password. The project also allows a Database administrator to enter the information of a student and company which is then stored in the corresponding tables in the main database.He can also delete the student and company information after placement is over from the main database. This project is aimed at developing an online application for the Training and Placement Dept. of the college.
 
-username : wipro
-pswd : wipro1
+The system is an online application that can be accessed throughout the organization and outside as well with proper login provided. This system can be used as an application for the Admin of the college to manage the student information with regards to placement. Students logging should be able to upload their information in the form of a CV. Visitors/Company representatives logging in may also access/search any information put up by Students.
 
+Admin after logging in can access/search any information put up by Students. Admin sends the notification to all the students who are eligible and the company profile is also made available to the students. The company visits the campus on the mutually agreed date and conducts Aptitude/Group Discussion/Seminar/Technical test/Personal Interview as a part of their preferred selection procedure. 
+
+The company is expected to furnish the final list of selected students on the same day after the completion of the campus selection procedure. After that admin updates, the recruited and rejected students which can be visible to the students. 
