@@ -19,9 +19,7 @@
 	 while(i<k)
     	{
 	     hno=request.getParameter("abc"+i);
-		 //out.println(hno);
 		 cmpid=request.getParameter("abcd"+i);
-		 //out.println(cmpid);
 		 i++;
 		 pst=con.prepareStatement("insert into results values('"+hno+"','"+cmpid+"','"+dat+"')");
 	     pst.executeUpdate();

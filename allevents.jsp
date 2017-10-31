@@ -9,12 +9,10 @@
    %>
   <%
 
-
 	 %>
 	 <h2>Events</H2>
 	 <%
     try{
-
 
 	   st=con.createStatement();
 	    stmt=con.createStatement();
@@ -38,9 +36,6 @@
 	<tr><td><input type="checkbox" name="ck<%=i%>" value="<%=xy%>"> </td><td><%=rs.getString(3)%> &nbsp;</td>
 	  <td> <a href="eventcontent1.jsp?msgid=<%=xy%>"> <%=rs.getString(1)%> </a>&nbsp;</td></tr>
 	  <% i=i+1; }
-
-
-
 
 	  }
 	  catch(Exception e)

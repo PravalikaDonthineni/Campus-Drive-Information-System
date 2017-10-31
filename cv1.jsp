@@ -77,11 +77,6 @@
  tenth=rs6.getString(13);
  baggregate=rs6.getString(12);
  }
- out.println("hi11");
-
-
-
-
  pst5=con.createStatement();
  rs5=pst.executeQuery("select * from personal where hno='"+sid1+"'");
  while(rs5.next())

@@ -13,9 +13,8 @@
   <tr><td>COMPANYID</td><td><input type="text" name="cname6"    size="20"></td></tr>
   </tbody></table></center>
 
-  <center>                <input type="submit" value="update"> </pre></center>
+  <center><input type="submit" value="update"> </pre></center>
    <pre>&nbsp;</pre>
-   <pre>             </pre>
    </form>
   </body>
 </html>

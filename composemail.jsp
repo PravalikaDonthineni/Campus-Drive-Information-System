@@ -54,10 +54,6 @@ try {
 	  out.println("<font color=#2271A0 size=5>u'r mail has been Sucessfully Sent.....");
 	  %>
 
-
-
-
-
 		<%
 
    }

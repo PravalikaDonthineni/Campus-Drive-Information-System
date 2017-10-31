@@ -79,8 +79,11 @@ int nosr,tot=0,yr,yr1,yr2;
            <h3><b><a href="achievements1.jsp"><font color="black">Total No. Of Students  <%=tot%></font></a></b></h3>
 
             <%tot=0;%>
-		  <p>&nbsp;</p><font size=4><b>From:  <select name="d"><option selected value="01">1</option>
-											   <option value="02">2</option>
+		  <p>&nbsp;</p>
+          <font size=4><b>
+          From:  <select name="d">
+          <option selected value="01">1</option>
+				<option value="02">2</option>
 											  <option value="03">3</option>
 										          <option value="04">4</option>
 											  <option value="05">5</option>

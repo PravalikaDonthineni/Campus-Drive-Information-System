@@ -17,8 +17,6 @@ ResultSet rs=null;
 String id,ns;
 %>
 <%
-
-
    try
    {
 
@@ -32,10 +30,6 @@ String id,ns;
 	   while(rs.next())
       { id=rs.getString(1);
 		ns=rs.getString(2);
-
-
-
-
 
 	%>        <tr><td align=center> <%=id%></td><td>
       <center>     <a href = "studentdetails.jsp?id=<%=id%>"><%=ns%> </a> </td></tr></font><%   }%>

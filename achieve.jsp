@@ -127,21 +127,6 @@ System.out.println("---------"+str);
 	 }if(c==0)
 		out.println("<tr><td colspan=4><h2>No results available</h2></td></tr>");
 
-
-
-
-
-
-
-
-
-					  /*//out.println("hi");
-
-              <%}  */
-
-
-
-
 }
 catch(Exception e)
 {
